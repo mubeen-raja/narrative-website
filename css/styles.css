@@ -11578,7 +11578,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/home/mubeen-raja.png");
+  background: url("../assets/img/home/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11591,7 +11591,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/travel/draft-header.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/travel/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11604,14 +11604,40 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/food/IMG_5556.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/food/background.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
+.masthead-fashion {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/fashion/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-lifestyle {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/lifestyle/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
   font-family: "Syne";
   font-weight: 800;
   font-size: 2.5rem;
@@ -11619,18 +11645,18 @@ body {
   letter-spacing: 0.8rem;
   color:#ffffff;
 }
-.masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2 {
+.masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2, .masthead-fashion h2, .masthead-fashion .h2, .masthead-lifestyle h2, .masthead-lifestyle .h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
+  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 @media (min-width: 992px) {
-  .masthead, .masthead-travel {
+  .masthead, .masthead-travel, .masthead-fashion, .masthead-lifestyle {
     height: 100vh;
     padding: 0;
   }
@@ -11641,12 +11667,12 @@ body {
       padding: 0;
     }
 
-  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
+  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
     font-size: 8rem;
     line-height: 8rem;
     letter-spacing: 0rem;
   }
-  .masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2 {
+  .masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2, .masthead-fashion h2, .masthead-fashion .h2, .masthead-lifestyle h2, .masthead-lifestyle .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
