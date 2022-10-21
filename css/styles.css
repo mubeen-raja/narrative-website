@@ -4167,6 +4167,7 @@ textarea.form-control-lg {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
+  font-family: Syne;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11515,6 +11516,8 @@ body {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
+    font-family: Syne;
+    font-weight: 700;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11523,13 +11526,13 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #2d2d2d;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11562,19 +11565,6 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/draft-header.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.masthead-pageone {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11588,14 +11578,40 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/mubeen-raja.png");
+  background: url("../assets/img/home/mubeen-raja.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead h1, .masthead .h1, .masthead-pageone h1, .masthead-pageone .h1, .masthead-index h1, .masthead-index .h1 {
+.masthead-travel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/travel/draft-header.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-food {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/food/IMG_5556.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
   font-family: "Syne";
   font-weight: 800;
   font-size: 2.5rem;
@@ -11603,34 +11619,34 @@ body {
   letter-spacing: 0.8rem;
   color:#ffffff;
 }
-.masthead h2, .masthead .h2, .masthead-pageone h2, .masthead-pageone .h2, .masthead-index h2, .masthead-index .h2 {
+.masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  .masthead h1, .masthead .h1, .masthead-pageone h1, .masthead-pageone .h1, .masthead-index h1, .masthead-index .h1 {
+  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 @media (min-width: 992px) {
-  .masthead, .masthead-pageone {
+  .masthead, .masthead-travel {
     height: 100vh;
     padding: 0;
   }
 
   @media (min-width: 992px) {
-    .masthead-index {
+    .masthead-index, .masthead-food {
       height: 100vh;
       padding: 0;
     }
 
-  .masthead h1, .masthead .h1, .masthead-pageone h1, .masthead-pageone .h1, .masthead-index h1, .masthead-index .h1 {
+  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1 {
     font-size: 8rem;
     line-height: 8rem;
     letter-spacing: 0rem;
   }
-  .masthead h2, .masthead .h2, .masthead-pageone h2, .masthead-pageone .h2, .masthead-index h2, .masthead-index .h2 {
+  .masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
