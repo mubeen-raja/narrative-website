@@ -11578,66 +11578,66 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: url("../assets/img/home/background.png");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/home/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead-travel {
+.masthead-about {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/travel/background.jpeg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 75%, #000 100%), url("../assets/img/about/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead-food {
+.masthead-the-past {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/food/background.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-past/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead-fashion {
+.masthead-the-present {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/fashion/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-present/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead-lifestyle {
+.masthead-the-future {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/lifestyle/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-future/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
+.masthead h1, .masthead .h1, .masthead-about h1, .masthead-about .h1, .masthead-index h1, .masthead-index .h1, .masthead-the-past h1, .masthead-the-past .h1, .masthead-the-present h1, .masthead-the-present .h1, .masthead-the-future h1, .masthead-the-future .h1 {
   font-family: "Syne";
   font-weight: 800;
   font-size: 2.5rem;
@@ -11645,34 +11645,34 @@ body {
   letter-spacing: 0.8rem;
   color:#ffffff;
 }
-.masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2, .masthead-fashion h2, .masthead-fashion .h2, .masthead-lifestyle h2, .masthead-lifestyle .h2 {
+.masthead h2, .masthead .h2, .masthead-about h2, .masthead-about .h2, .masthead-index h2, .masthead-index .h2, .masthead-the-past h2, .masthead-the-past .h2, .masthead-the-present h2, .masthead-the-present .h2, .masthead-the-future h2, .masthead-the-future .h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
+  .masthead h1, .masthead .h1, .masthead-about h1, .masthead-about .h1, .masthead-index h1, .masthead-index .h1, .masthead-the-past h1, .masthead-the-past .h1, .masthead-the-present h1, .masthead-the-present .h1, .masthead-the-future h1, .masthead-the-future .h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
 @media (min-width: 992px) {
-  .masthead, .masthead-travel, .masthead-fashion, .masthead-lifestyle {
+  .masthead, .masthead-about, .masthead-the-present, .masthead-the-future {
     height: 100vh;
     padding: 0;
   }
 
   @media (min-width: 992px) {
-    .masthead-index, .masthead-food {
+    .masthead-index, .masthead-the-past {
       height: 100vh;
       padding: 0;
     }
 
-  .masthead h1, .masthead .h1, .masthead-travel h1, .masthead-travel .h1, .masthead-index h1, .masthead-index .h1, .masthead-food h1, .masthead-food .h1, .masthead-fashion h1, .masthead-fashion .h1, .masthead-lifestyle h1, .masthead-lifestyle .h1 {
+  .masthead h1, .masthead .h1, .masthead-about h1, .masthead-about .h1, .masthead-index h1, .masthead-index .h1, .masthead-the-past h1, .masthead-the-past .h1, .masthead-the-present h1, .masthead-the-present .h1, .masthead-the-future h1, .masthead-the-future .h1 {
     font-size: 8rem;
     line-height: 8rem;
     letter-spacing: 0rem;
   }
-  .masthead h2, .masthead .h2, .masthead-travel h2, .masthead-travel .h2, .masthead-index h2, .masthead-index .h2, .masthead-food h2, .masthead-food .h2, .masthead-fashion h2, .masthead-fashion .h2, .masthead-lifestyle h2, .masthead-lifestyle .h2 {
+  .masthead h2, .masthead .h2, .masthead-about h2, .masthead-about .h2, .masthead-index h2, .masthead-index .h2, .masthead-the-past h2, .masthead-the-past .h2, .masthead-the-present h2, .masthead-the-present .h2, .masthead-the-future h2, .masthead-the-future .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
