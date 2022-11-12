@@ -11583,7 +11583,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/home/background.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/home/index-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11596,7 +11596,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 75%, #000 100%), url("../assets/img/about/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.01) 75%, #000 100%), url("../assets/img/about/about-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11609,7 +11609,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-past/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-past/the-past-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11622,7 +11622,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-present/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-present/the-present-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11635,7 +11635,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-future/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%), url("../assets/img/the-future/the-future-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11720,7 +11720,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/home/background.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/home/index-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
