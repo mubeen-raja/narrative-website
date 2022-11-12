@@ -8039,6 +8039,11 @@ textarea.form-control-lg {
   background-color: rgba(21, 21, 21, 1);
 }
 
+.bg-lightgrey {
+  --bs-bg-opacity: 1;
+  background-color: rgb(216, 216, 216);
+}
+
 .bg-body {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
@@ -11984,7 +11989,7 @@ font-family: "Syne";
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(102, 102, 102, 0.44);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -12030,4 +12035,9 @@ font-family: "Syne";
 
 .thepastVideo {
   object-fit: fill;
+}
+
+.titleFontFamily {
+  font-family: "Syne";
+  font-weight: 700;
 }
