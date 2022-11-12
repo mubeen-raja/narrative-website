@@ -11717,6 +11717,13 @@ body {
     width: 30%;
   }
 }
+.projects-section h2.section-heading, .projects-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+ }
 
 .signup-section {
   padding: 10rem 0;
@@ -12020,3 +12027,7 @@ font-family: "Syne";
  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
  margin-bottom: 4rem;
 } 
+
+.thepastVideo {
+  object-fit: fill;
+}
