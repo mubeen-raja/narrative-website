@@ -11989,7 +11989,7 @@ font-family: "Syne";
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(102, 102, 102, 0.44);
+  background-color: rgba(0, 0, 0, 0.53);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -12159,4 +12159,8 @@ header .overlay {
   font-size: medium;
 }
 
+.modal-hover-text {
+  font-family: Syne;
+  font-weight: 700;
+}
 
