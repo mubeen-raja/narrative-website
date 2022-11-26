@@ -12203,3 +12203,12 @@ box-shadow: 0px 2px 60px #bee4e8;
   box-shadow: 0px 2px 60px #3c63de;
 }
 
+.modal-caption {
+  color: grey;
+  font-size: 10px;
+  padding-bottom: 1rem;
+}
+
+.modal-margin {
+  margin-bottom: 20px;
+}
