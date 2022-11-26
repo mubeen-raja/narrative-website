@@ -12144,6 +12144,11 @@ header .overlay {
   font-weight: 700;
 }
 
+.syne-400 {
+  font-family: Syne;
+  font-weight: 400;
+}
+
 .larger-text {
   font-size: large;
 }
@@ -12203,6 +12208,8 @@ box-shadow: 0px 2px 60px #bee4e8;
   box-shadow: 0px 2px 60px #3c63de;
 }
 
+/** More Modal */
+
 .modal-caption {
   color: grey;
   font-size: 10px;
@@ -12212,3 +12219,21 @@ box-shadow: 0px 2px 60px #bee4e8;
 .modal-margin {
   margin-bottom: 20px;
 }
+
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Carousel End
+------------------------- */
+
+
