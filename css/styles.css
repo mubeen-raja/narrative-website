@@ -12370,3 +12370,9 @@ box-shadow: 0px 2px 60px #bee4e8;
   color: #FE546F !important;
   text-shadow: 5px 5px 50px #FE546F !important;
 }
+
+.timeline-body a{
+color: grey;
+font-style: italic;
+font-size: 12px;
+}
