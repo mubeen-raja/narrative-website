@@ -12136,7 +12136,7 @@ header .overlay {
 }
 
 .beyond-earth {
-  color: #FFD080 !important;
+  color: #FF9E7D !important;
 }
 
 .syne-700 {
@@ -12180,32 +12180,73 @@ header .overlay {
 box-shadow: 0px 2px 60px #536dac;
 }
 
+.mercury-title {
+  color: #536dac !important;
+  text-shadow: 5px 5px 50px #536dac !important;
+}
+
+
 .venus-image {
   box-shadow: 0px 2px 60px #ac854d;
 }
 
+.venus-title {
+  color: #ac854d !important;
+  text-shadow: 5px 5px 50px #ac854d !important;
+}
+
 .earth-image {
-box-shadow: 0px 2px 60px #424b80;
+box-shadow: 0px 2px 60px #25a5be;
+}
+
+.earth-title {
+  color: #25a5be !important;
+  text-shadow: 5px 5px 50px #25a5be !important;
 }
 
 .mars-image {
   box-shadow: 0px 2px 60px #e4764f;
 }
 
+.mars-title {
+  color: #e4764f !important;
+  text-shadow: 5px 5px 50px #e4764f !important;
+}
+
 .jupiter-image {
   box-shadow: 0px 2px 60px #dca773;
+}
+
+.jupiter-title {
+  color: #dca773 !important;
+  text-shadow: 5px 5px 50px #dca773 !important;
 }
 
 .saturn-image {
   box-shadow: 0px 2px 60px #dabb7a;
 }
 
+.saturn-title {
+  color: #dabb7a !important;
+  text-shadow: 5px 5px 50px #dabb7a !important;
+}
+
 .uranus-image {
 box-shadow: 0px 2px 60px #bee4e8;
 }
 
+.uranus-title {
+  color: #bee4e8 !important;
+  text-shadow: 5px 5px 50px #bee4e8 !important;
+}
+
 .neptune-image {
   box-shadow: 0px 2px 60px #3c63de;
+}
+
+.neptune-title {
+  color: #3c63de !important;
+  text-shadow: 5px 5px 50px #3c63de !important;
 }
 
 /** More Modal */
@@ -12265,6 +12306,10 @@ box-shadow: 0px 2px 60px #bee4e8;
 /* Carousel End
 ------------------------- */
 
+.quote-color {
+  color: #01CBCF !important;
+}
+
 @keyframes fade-inout {
   0%{ opacity: 1;}
   100%{ opacity: 0;}
@@ -12290,3 +12335,33 @@ box-shadow: 0px 2px 60px #bee4e8;
   transform: scale(1.1);
 } 
 
+/** About Me */
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid white;
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  color: white;
+  font-family: Syne;
+  font-weight: 600;
+}
+
+.aboutme-page-section {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+}
+
+.aboutme-page-section h2{
+  font-family: Syne;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
