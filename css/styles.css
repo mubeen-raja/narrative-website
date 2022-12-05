@@ -12376,3 +12376,31 @@ color: grey;
 font-style: italic;
 font-size: 12px;
 }
+
+/* Article */
+.article h1 {
+  color: white;
+  font-family: "Syne";
+  font-weight: 700;
+}
+
+.article h2 {
+  color: white;
+  font-family: "Syne";
+  font-weight: 600;
+}
+
+.article h5 {
+  color: white;
+  font-family: "Syne";
+  font-weight: 400;
+}
+
+.article p {
+  color: white;
+}
+
+.article figcaption {
+  color: white;
+  font-size: 12px;
+}
