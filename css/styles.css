@@ -4556,20 +4556,20 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.81);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.57);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 208, 128, 0.75);
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 158, 125, 0.75);
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
@@ -11485,19 +11485,19 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #ff9e7d;
-  border: 1px solid #ff9e7d;
+  color: #fff;
+  border: 1px solid #fff;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -12404,3 +12404,189 @@ font-size: 12px;
   color: white;
   font-size: 12px;
 }
+
+.navbar-responsive {
+  font-family: "Syne";
+  font-weight: 600;
+}
+
+.responsive-padding {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* RESPONSIVE MASTHEAD */
+
+ @media (max-width: 575.98px) { 
+  .masthead-index h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-about h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-past h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-present h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-future h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+ } 
+
+ @media (max-width: 768.98px) { 
+  .masthead-index h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-about h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-past h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-present h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-future h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+ } 
+
+ @media (max-width: 991.98px) { 
+  .masthead-index h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-about h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-past h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-present h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-future h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+ } 
+
+ @media (max-width: 1199.98px) { 
+  .masthead-index h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-about h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-past h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-present h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-future h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+ } 
+
+ @media (max-width: 1399.98px) { 
+  .masthead-index h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-about h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-past h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-present h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+  .masthead-the-future h1 {
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+ } 
+
+ /******* INDEX RESPONSIVE ********/
+
+
+  @media (max-width: 992px) { 
+    .index-quote h2{
+      font-family: "Syne";
+      font-weight: 700;
+      text-shadow: 5px 5px 50px white;
+      padding-bottom: 1rem;
+    }
+    }
+
+    @media (max-width: 576px) { 
+      .index-quote {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      }
+
+    @media (max-width: 992px) { 
+      .index-quote{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+      }
+
+      @media (max-width: 576px) { 
+        .responsive-buttons .btn-primary {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        }
+ 
