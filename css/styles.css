@@ -12560,14 +12560,22 @@ font-size: 12px;
  /******* INDEX RESPONSIVE ********/
 
 
-  @media (max-width: 992px) { 
+  @media (max-width: 576px) { 
     .index-quote h2{
       font-family: "Syne";
       font-weight: 700;
+      font-size: 16px;
       text-shadow: 5px 5px 50px white;
       padding-bottom: 1rem;
     }
     }
+
+    @media (max-width: 576px) { 
+      .index-quote figcaption {
+        font-size: 10px;
+        color: grey;
+      }
+  }
 
     @media (max-width: 576px) { 
       .index-quote {
@@ -12585,8 +12593,67 @@ font-size: 12px;
 
       @media (max-width: 576px) { 
         .responsive-buttons .btn-primary {
-          margin-top: 20px;
-          margin-bottom: 20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
         }
+
+      @media (max-width: 576px) { 
+        .index-projects {
+          padding: 1.5rem;
+        }
+      }
+
+        @media (max-width: 576px) { 
+          .index-projects h4 {
+            font-family: "Syne";
+            font-weight: 700;
+          }
+      }
+
+      @media (max-width: 576px) { 
+        .carousel-responsive img {
+          width: 100%;
+          height: 300px;
+        }
+    }
+
+    @media (max-width: 576px) { 
+      .carousel-responsive h3 {
+        font-size: 24px;
+        margin-top: 1em;
+      }
+  }
+  @media (max-width: 576px) { 
+    .carousel-responsive figcaption {
+      font-size: 12px;
+      color: grey;
+    }
+}
+
+  @media (max-width: 576px) { 
+    .carousel-item  {
+      height: 40vh;
+    }
+}
+
+@media (max-width: 576px) { 
+  .present-break {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) { 
+  .innav-responsive {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) { 
+  .innav-responsive h2 {
+    font-size: 20px;
+  }
+}
+
+
  
