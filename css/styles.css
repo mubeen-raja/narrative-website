@@ -12593,6 +12593,8 @@ font-size: 12px;
 
       @media (max-width: 576px) { 
         .responsive-buttons .btn-primary {
+          font-size: 12px;
+          padding: 14px 40px;
           margin-top: 10px;
           margin-bottom: 10px;
         }
@@ -12652,6 +12654,14 @@ font-size: 12px;
 @media (max-width: 576px) { 
   .innav-responsive h2 {
     font-size: 20px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) { 
+  .innav-responsive .btn-primary {
+    font-size: 12px;
+    padding: 14px 40px;
   }
 }
 
