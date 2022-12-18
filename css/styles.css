@@ -13769,6 +13769,10 @@ header .overlay {
   }
 }
 
+.article-heading h2 {
+  font-size: 48px;
+}
+
 /******* INDEX RESPONSIVE ********/
 
 
